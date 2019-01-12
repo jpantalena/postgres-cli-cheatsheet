@@ -11,12 +11,17 @@ psql
 \l
 ```
 
-## Create a databases
+## Create a database
 ```
 create database <database-name>
 ```
 
-## Connect to a databases
+## Delete a database
+```
+drop database <database-name>
+```
+
+## Connect to a database
 ```
 \c <database-name>
 ```
